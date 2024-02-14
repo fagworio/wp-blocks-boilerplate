@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/boilerplate",
+	"version": "0.1.0",
+	"title": "Boilerplate",
+	"category": "text",
+	"icon": "text-page",
+	"description": "A box of text.",
+	"keywords": [
+		"text",
+		"box"
+	],
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "text-box",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
